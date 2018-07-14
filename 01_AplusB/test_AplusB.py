@@ -23,6 +23,18 @@ class Test_AplusB:
         """
         assert 123 == self.Testsolution.aplusb(0, 123)
 
+    def test_0pm1(self):
+        """
+        AplusB函数测试
+        """
+        assert -1 == self.Testsolution.aplusb(0, -1)
+
+    def test_1pm2(self):
+        """
+        AplusB函数测试
+        """
+        assert -1 == self.Testsolution.aplusb(1, -2)
+
     def test_10pn123(self):
         """
         AplusB函数测试
